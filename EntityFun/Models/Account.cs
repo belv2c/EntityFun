@@ -11,5 +11,6 @@ namespace EntityFun.Models
         public virtual double Balance { get; set; }
         public virtual DateTime DateOpened { get; set; }
         public virtual int InterestRate { get; set; }
+        public virtual DateTime InterestRatePeriod { get; set; }
     }
 }

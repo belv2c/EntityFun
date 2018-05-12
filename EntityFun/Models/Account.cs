@@ -13,4 +13,11 @@ namespace EntityFun.Models
         public virtual int InterestRate { get; set; }
         public virtual DateTime InterestRatePeriod { get; set; }
     }
+
+    public enum AccountType
+    {
+        Checking,
+        Savings,
+        Investment
+    }
 }

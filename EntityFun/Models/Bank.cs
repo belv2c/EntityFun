@@ -9,5 +9,6 @@ namespace EntityFun.Models
     {
         public virtual int Id { get; set; }
         public virtual string Name { get; set; }
+        public virtual IList<AccountType> AccountTypes { get; set; }
     }
 }
